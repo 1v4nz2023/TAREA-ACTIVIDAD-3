@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100;200;300;400;500;600&display=swap');
+
+*{
+    font-family: 'Geologica', sans-serif;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    background: url(https://img.konami.com/yugioh/masterduel/images/background-colud.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.contenedor-cabeza{
+    background: url(https://img.konami.com/yugioh/duel_links/images/common/header_bk.png) center top no-repeat;
+    text-align: center;
+    height: 70px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    color:white;
+}
+
+.pie{
+    color: white;
+    background-color: black;
+    text-align: center;
+    margin-top: auto;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
